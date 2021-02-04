@@ -20,15 +20,19 @@ The format of the JSON metadata for an ERC-1155 token is:
 
 ```javascript
 {
-	"name": "Javascript",
-	"description": "Experience with the Javascript programming languiage.",
-	"image": "ipfs://Qmkhn234…",
+  "name": "Javascript",
+  "description": "Experience with the Javascript programming language.",
+  "image": "ipfs://Qmkhn234…",
   "decimals": 18,
   "properties": { /* any object */ }
-}```
+}
+```
 
 The `properties` for a `skill` will be:
 
+```javascript
 {
-  'context: ['']
+  context: ['http://schema.org/skills']
+
 }
+```
